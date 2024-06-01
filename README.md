@@ -34,7 +34,7 @@ Run the following to fetch all models and checkpoints to `data/`
 ```Bash
 bash scripts/download_models.sh
 ```
-
+https://smplify.is.tue.mpg.de/download.php
 ## Run demo on videos
 This project integrates the complete 4D human system, including tracking, slam, and 4D human capture in the world space. We separate the core functionalities into different scripts, which should be run **sequentially**. Each step will save its result to be used by the next step. All results will be saved in a folder with the same name as the video.
 
